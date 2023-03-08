@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>index CV</title>
+</head>
+<body>
+    <script src="js/eventos.js"></script>
+     <div class="row">
+        
+        <!-- columna izquierda con info-->
+        <div id="colum1" class="col-4" >
+
+            <img id="imgperfil" src="https://randomuser.me/api/portraits/men/79.jpg" alt="foto de perfil del cv">
+
+            <p>FORMACION ACADÉMICA</p>
+            <ul>
+                <li>MBA en Administracion de Empresas Intitucion Increible, 2022</li>
+                <li>Licenciatura en Economía y Finanzas Universidad Increible, 2016</li>
+                <li>Bachiller en Bienes y Servicios Colegio Secundario Increible, 2011</li>
+            </ul>
+            
+            <p>OTROS CONOCIMIENTOS</p>
+            <ul>
+                <li>Analista Financiero Certificado. Institucion Increible, 2022. </li>
+                <li>Seminario de Capacitacion de Crypto. Institucion Increible, 2022.</li>
+            </ul>
+
+            <p>IDIOMAS</p>
+            <ul>
+                <li>Idioma Español: Nativo. </li>
+                <li>Idioma Inglés: Avanzado. Nivel Oral: Bilingüe. Escritura:Avanzado.</li>
+            </ul>
+            
+            <p>REDES SOCIALES</p>
+            <!--imagen a la izquierda con texto de contacto-->
+                    <p><img src="/images/pngfind.com-twitter-and-instagram-png-5170026.png" alt="icono twitter" style="float:left;width: 38px;height: 38px;";> @steven_taylor</p>
+                    <p><img src="/images/pngfind.com-instagram-icon-png-circle-6362714.png" alt="icono instagram" style="float:left;width: 30px;height: 28px;";>@steven.taylor48</p> 
+
+        </div>
+
+
+        <div id="colum2" class="col-8">
+
+            <h1 id="titulonombre">STEVEN TAYLOR</h1>
+            <h3 id="tituloprof">ANALISTA FINANCIERO</h3>
+            
+            <p id="sobremi">SOBRE MI</p>
+             
+                <p>Gestor de contabilidad a tiempo completo con 10 años de experiencia en administración contable, contabilidad empresarial,
+                 analisis de riesgos, presupuestos y recursos humanos. Mi experiencia incluye trabajo amplio de finanzas, 
+                cobranzas, informes financieros y auditorias.</p>
+
+             <p id="explab">EXPERIENCIA LABORAL</p>
+                    <p><b>Jefe de finanzas</b></p>
+                    <p>En Barcelle, Marzo 2018-presente</p>
+                    <ul>
+                        <li>Diseño, organización y ejecución de las estrategias financieras y contables de la empresa.</li>
+                        <li>Planeamiento de presupuesto y seguimiento de cartera de inversiones nacionales y extranjeras.</li>
+                        <li>Presentación de resultados mensuales ante la mesa directiva y gerencia.</li>
+                    </ul>
+
+                    <p><b>Analista Fianciero Senior</b></p>
+                    <p>En Larana, Inc., Abril 2020- Julio 2021</p>
+                    <ul>
+                        <li>Estudio de propuesta de Inversiones en base a la rentabilidad y viabilidad económica.</li>
+                        <li>Gestión personalizada de clientes potenciales y en cartera.</li>
+                        <li>Verificación de procedimientos, protocolos y normas.</li>
+                    </ul>
+                    
+                    <p><b>Analista Fianciero</b></p>
+                    <p>En Fauget, Septiembre 2019-Mayo 2020</p>
+                    <ul>
+                        <li>Análisis de oportunidades de negocio.</li>
+                        <li>Estudio de propuestas de inversiones.</li>
+                        <li>Gestión personalizada de clientes potenciales y en cartera</li>
+                        <li>Verificación de procedimientos, protocolos y normas.</li>
+                    </ul>
+        </div>
+      </div>
+
+  <footer id="myfooter">
+        <h3>¿Te interesa empezar un proyecto conmigo?</h3>
+        <p id="mensaje">Haz click en el boton para recibir mis datos de contacto</p>
+        <button onclick id="DatosC">Click aqui</button>
+        <script src="js/eventos.js"></script>
+
+        <p id="pcontacto">o si prefieres, rellena este formulario, enviame tu propuesta y te responderé lo antes posible</p>
+        <form action="" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="Apellido">Apellido:</label>
+            <input type="tex" id="apellido" name="apellido">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="propuesta">Selecciona el archivo con tu propuesta</label>
+            <input type="file" id="propuesta" name="propuesta">
+            <button>Enviar</button>
+        </form>
+        
+        
+  </footer>
+</body>
+</html>
